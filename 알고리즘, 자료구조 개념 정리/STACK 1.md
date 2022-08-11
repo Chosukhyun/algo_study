@@ -40,7 +40,7 @@
   
   - 빈 스택에 원소 A, B, C를 차례로 삽입 후 한 번 삭제하는 연산과정
     
-    ![삽입/삭제 연산과정](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-08-13-14-31-image.png)
+    ![삽입/삭제 연산과정](assets/2022-08-08-13-14-31-image.png)
 
 - push 알고리즘
   
@@ -140,34 +140,34 @@ ___
   
   3. 괄호 사이에는 포함관계만 존재 함
   
-  ![잘못된 괄호 사용의 예](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-08-14-05-46-image.png)
+  ![잘못된 괄호 사용의 예](assets/2022-08-08-14-05-46-image.png)
 
-- 스택을 이용한 괄호 검사![스택괄호검사](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-08-14-08-21-image.png)
+- 스택을 이용한 괄호 검사![스택괄호검사](assets/2022-08-08-14-08-21-image.png)
   
   -  괄호수식이 끝났는데 스택에 괄호가 남아 있으므로 올바르게 괄호가 짝지어지지 않음 
 
 - 괄호를 조사하는 알고리즘 개요
 
-    ![괄호조사 알고리즘](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-08-14-12-54-image.png)
+    ![괄호조사 알고리즘](assets/2022-08-08-14-12-54-image.png)
 
 #### 2) Function call
 
 - 함수 호출관리
   
   - 프로그램에서의 함수 호출과 복귀에 따른 수행 순서를 관리
-    ![함수호출](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-08-14-18-34-image.png)
+    ![함수호출](assets/2022-08-08-14-18-34-image.png)
 
 - 함수 호출 수행 순서
 
-![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-09-02-38-18-image.png)
+![](assets/2022-08-09-02-38-18-image.png)
 
-![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-09-02-39-15-image.png)
+![](assets/2022-08-09-02-39-15-image.png)
 
-![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-09-02-39-47-image.png)
+![](assets/2022-08-09-02-39-47-image.png)
 
 - 함수호출 수행순서를 전체적으로 보여 줌
 
-![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-09-02-40-28-image.png)
+![](assets/2022-08-09-02-40-28-image.png)
 
 - 재귀호출
   
@@ -194,7 +194,7 @@ ___
 
 - 예) Factorial함수에서 n=4인 경우의 실행
   
-  ![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-09-03-10-01-image.png)
+  ![](assets/2022-08-09-03-10-01-image.png)
 
 ___
 
@@ -237,7 +237,7 @@ ___
     
     - (아래 그림참고) 같은 입력값에 대한 함수 호출이 많이 중복되었다는 것을 확인 할 수 있음
 
-        ![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-09-10-59-04-image.png)
+        ![](assets/2022-08-09-10-59-04-image.png)
 
 #### 3) Memoization
 
@@ -298,13 +298,14 @@ ___
   
   - __피보나치를 구하는 함수__ 는 부분문제의 답으로부터 본 문제의 답을 얻을 수 있는 최적 부분구조로 이루어져 있어 DP를 적용할수 있음
     
-    1. 문제를 부분문제로 분할    ![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-10-03-25-53-image.png)
+    1. 문제를 부분문제로 분할    
+       ![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-10-03-25-53-image.png)
     
     2. 부분문제로 나누는 일을 끝냈으면 가장 작은 부분부터 해를 구함
     
     3. 그 결과는 테이블에 저장하고, 테이블에 저장된 부부분 문제의 해를 이용하요 상위문제의 해를 구함
        
-       ![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-10-03-26-46-image.png)
+       ![](assets/2022-08-10-03-26-46-image.png)
 
 - 피보나치수를 DP에 적용한 알고리즘
   
@@ -352,9 +353,10 @@ ___
 
 #### 2) DFS(깊이우선탐색) 알고리즘
 
-![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-10-15-18-46-image.png)
+![](assets/2022-08-10-15-18-46-image.png)
 
-- ![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-11-01-18-23-image.png)![](C:\Users\asa95\AppData\Roaming\marktext\images\2022-08-11-01-51-05-image.png)
+- ![](assets/2022-08-11-01-18-23-image.png)
+  ![](assets/2022-08-11-01-51-05-image.png)
   - 깊이 우선 탐색의 순서를 따라가 보면 A, B, D, F, E, C, G 순으로 탐색함
     - -> 한 쪽 방향으로 계속 탐색하다가 더 이상 진행할 수 없으면 다시 되돌아오는 방법으로 탐색했다는 것을 알 수 있음
   - 다시 되돌아오기 위해 사용한 자료구조로 스택을 사용했다는 것을 기억해야 함
