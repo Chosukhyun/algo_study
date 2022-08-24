@@ -39,4 +39,3 @@ for i in range(len(bar)):
 
 
 print(ans)
-
